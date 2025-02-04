@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="he" >
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>בית מטבחיים 5</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
@@ -16,8 +16,50 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h1>בית מטבחיים 5</h1>
+				</section>
+				<section>
+					<h2>הפרעת דחק פוסט־טראומטית</h2>
+					<ul>
+						<li>
+							הפרעה פסיכיאטרית שעלולה להיווצר בעקבות חשיפה לאירוע טראומטי
+						</li>
+					</ul>
+				</section>
+				<section>
+					<table>
+						<tr>
+							<th class="fragment fade-right">אבחנה - DSM</th>
+							<th class="fragment fade-right">בילי פילגרים</th>
+
+						</tr>
+						<tr>
+							<td class="fragment fade-left">חשיפה לאירוע טראומטי</td>
+							<td class="fragment fade-left">המלחמה</td>
+						</tr>
+						<tr>
+							<td class="fragment fade-left">חוויה חוזרת של האירוע</td>
+							<td class="fragment fade-left">"שיוט" בזמן וחזרה למלחמה</td>
+						</tr>
+						<tr>
+							<td class="fragment fade-left">הימנעות מגירויים הקשורים לאירוע</td>
+							<td class="fragment fade-left">הימנעות ממחשבה על המלחמה</td>
+						</tr>
+						<tr>
+							<td class="fragment fade-left">מחשבות או רגשות שליליים</td>
+							<td class="fragment fade-left">אשמת השורד</td>
+						</tr>
+						<tr>
+							<td class="fragment fade-left">עוררות יתר</td>
+							<td class="fragment fade-left">הפרעות שינה</td>
+						</tr>
+						<tr>
+							<td class="fragment fade-left">סימפטומים דיסוציאטיביים</td>
+							<td class="fragment fade-left">טרלפמדור</td>
+						</tr>
+					</table>
+				</section>
 			</div>
 		</div>
 
@@ -31,7 +73,10 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-
+				rtl: true,
+				progress: false,
+				controlsLayout: "edges",
+				
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
