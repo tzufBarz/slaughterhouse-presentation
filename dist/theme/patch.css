@@ -1,0 +1,4 @@
+.reveal th, .reveal td {
+    direction: rtl !important;
+    text-align: right !important;
+}
